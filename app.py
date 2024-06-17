@@ -2,8 +2,6 @@ import streamlit as st
 import pandas as pd
 import re
 from datetime import datetime
-from kafka import KafkaProducer
-from kafka.errors import NoBrokersAvailable
 import json
 
 # Function to check email format using regular expressions
