@@ -54,7 +54,7 @@ def is_valid_card_number(card_number):
 valid_account_types = ["Savings", "Credit", "Checking"]
 
 # Streamlit app title
-st.title("Adi's Compliance Checker")
+st.title("Adi's Compliance and suspicious transactions Checker")
 
 # File uploader widget to upload an Excel file
 uploaded_file = st.file_uploader("Choose an Excel file", type="xlsx")
